@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../qunit/qunit/qunit.css" />
+    <script src="../jquery/jquery-1.8.0.min.js"></script>
+    <script src="../lib/jquery.textareaformatter.js"></script>
+    <script src="../qunit/qunit/qunit.js"></script>
+    <script src="test.js"></script>
+    <script>
+      <!--
+		test('If textarea is empty, do nothing.', function() {
+		  equal($('.textarea1').val(), '');
+        });
+        test('If a line has number of chars over width, that line is formatted with newline.', function() {
+		  equal($('.textarea2').val(), 'ddd\nddd');
+		});
+        test('If a line has number of chars less than width, that line show as it is.', function() {
+		  equal($('.textarea3').val(), 'dd\nd\ndd');
+		});
+        test('If number of lines over height, the excess rows is deleted.', function() {
+		  equal($('.textarea4').val(), 'dd\ndff\ndd');
+		});
+        test('Width and height can be overridden.', function() {
+		  equal($('.textarea5').val(), 'd');
+		});
+        test('You can Inhibit formatting with options override.', function() {
+		  equal($('.textarea6').val(), 'abcdef');
+		});
+      //-->
+    </script>
+  </head>
+  <body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+	<textarea class="textarea1"></textarea>
+	<textarea class="textarea2">dddddd</textarea>
+	<textarea class="textarea3">dd
+d
+dd</textarea>
+	<textarea class="textarea4">dd
+dff
+dd
+kp
+a</textarea>
+	<textarea class="textarea5">dd
+dff
+dd
+k</textarea>
+	<textarea class="textarea6">abcdef</textarea>
+  </body>
+</html>
