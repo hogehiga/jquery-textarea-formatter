@@ -1,4 +1,4 @@
-#textareaformatter
+#jQuery textarea formatter
 
 ## What is it?
 This is a plugin for jQuery, it makes textarea formatted.
