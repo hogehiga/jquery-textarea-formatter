@@ -1,5 +1,5 @@
 #jQuery textarea formatter
-
+[![Build Status](https://travis-ci.org/hogehiga/jquery-textarea-formatter.png?branch=master)](https://travis-ci.org/hogehiga/jquery-textarea-formatter)
 ## What is it?
 This is a plugin for jQuery, it makes textarea formatted.
 
