@@ -5,6 +5,9 @@ $(function() {
     $('.textarea4').textareaformatter();
     $('.textarea5').textareaformatter({width: 1, height: 1});
     $('.textarea6').textareaformatter({format: false});
+    $('.textarea7').textareaformatter();
+    $('.textarea8').caret(5);
+    $('.textarea8').textareaformatter();
 
     test('If textarea is empty, do nothing.', function() {
         equal($('.textarea1').val(), '');
@@ -23,5 +26,11 @@ $(function() {
     });
     test('You can Inhibit formatting with options override.', function() {
         equal($('.textarea6').val(), 'abcdef');
+    });
+    test('It can retain cursor position.', function() {
+        equal($('.textarea7').caret(), '0');
+    });
+    test('It can retain cursor position.', function() {
+        equal($('.textarea8').caret(), '5');
     });
 });

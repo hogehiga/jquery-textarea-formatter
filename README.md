@@ -9,6 +9,7 @@ This is a plugin for jQuery, it makes textarea formatted.
     <html>
       <head>
         <script src="jquery/jquery-1.8.0.min.js"></script>
+        <script src="jquery.caret/dist/jquery.caret-1.5.2.min.js"></script>
         <script src="lib/jquery.textareaformatter.js"></script>
         <script>
           $(function() {
