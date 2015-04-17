@@ -27,4 +27,4 @@ If you open `index.html` in your browser, you will see formatted textarea like b
     aaa
     aa
 
-You can see more example in `test` directory.
+You can see more examples in `test` directory.
